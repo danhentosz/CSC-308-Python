@@ -1,6 +1,6 @@
 # CSC 308 Assignment 7 || Assignment 7
-# Daniel Hentosz, Ji Sue Lee, Tristan Rice, Casey Crowley
-# hen3883@calu.edu, lee8472@calu.edu, ric5712@calu.edu, cro8478@calu.edu
+# Daniel Hentosz,  Casey Crowley, Ji Sue Lee, Tristan Rice
+# hen3883@calu.edu, cro8478@calu.edu, lee8472@calu.edu, ric5712@calu.edu
 
 
 import random
@@ -112,7 +112,8 @@ def prompt():
         try:
             print("Would you like to play again?\nPRESS 1: for yes\nPRESS 2: for no")
             again = int(input())
-            good = True
+            if again==1 or again==2:
+                good = True
             if good:
                 return again
         except:
