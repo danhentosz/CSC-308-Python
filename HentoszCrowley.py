@@ -113,12 +113,17 @@ def play(nums, bet, game):
                 else:
                     chipsReturn = bet - (bet * 2)
             else:
-                for i in nums:
-                    print(i)
                 therenums = []
                 for i in range(7):
-                    print("Enter number", i + 1)
-                    therenums.append(int(input()))
+                    good = False
+                    while not good:
+                        print("Enter number ", i + 1, ": ", sep="")
+                        num = int(input())
+                        if validrange(num):
+                            therenums.append(num)
+                            good = True
+                        else:
+                            print("Enter a number 0-9")
                 count = 0
                 for i in range(7):
                     if nums[i] == therenums[i]:
@@ -137,7 +142,7 @@ def play(nums, bet, game):
                 else:
                     chipsReturn = bet - (bet * 2)
         except:
-            print("Invalid input")
+            print("Invalid input.")
             good = False
     return chipsReturn
 
