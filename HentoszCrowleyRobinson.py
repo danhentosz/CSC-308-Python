@@ -1,3 +1,8 @@
+#CSC308 Python Assignment 8
+#Daniel Hentosz, Casey Crowley, Quanel Robinson
+#hen3883@calu.edu, cro8478@calu.edu, rob5189@calu.edu
+#Created: 3/19/21
+#Last revised: 3/23/21
 # Our main function.
 def main():
     k1, k2, k3 = fill()
