@@ -1,6 +1,6 @@
 # CSC 308 Python
- * __Daniel Hentosz, Casey Crowley, Quanel Robinson__
- * hen3883@calu.edu, cro8478@calu.edu, rob5189@calu.edu
+ * __Daniel Hentosz, Casey Crowley__
+ * hen3883@calu.edu, cro8478@calu.edu
 
 ## __Assignment 8__
 __Course information__
